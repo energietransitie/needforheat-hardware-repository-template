@@ -4,7 +4,7 @@ This repository contains the open hardware design files for the Twomes something
 
 Describe the function of the shiels.
 
-<img src="./front.jpg" width="400" height="400" /> <img src="./back.jpg" width="400" height="400" />
+<img src="./Hardware/front.jpg" width="400" height="400" /> <img src="./Hardware/back.jpg" width="400" height="400" />
 
 ## Table of contents
 * [General info](#general-info)
