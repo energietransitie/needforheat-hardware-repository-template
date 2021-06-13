@@ -58,13 +58,11 @@ Describe how the reader can change or extend the harware design.
 
 ## Features
 List of features ready and TODOs for future development. Ready:
-
 * awesome feature 1;
 * awesome feature 2;
 * awesome feature 3.
 
 To-do:
-
 * wow improvement to be done 1;
 * wow improvement to be done 2.
 
@@ -82,11 +80,19 @@ The hardware in this repository is available under the [CERN-OHL-W v2 license](.
 
 ## Credits
 This open hardware design is a collaborative effort of:
-* <contributor name 1> ·  [@Github_handle_1](https://github.com/<github_handle_1>) ·  Twitter [@Twitter_handle_1](https://twitter.com/<twitter_handle_1>)
-* <contributor name 2> ·  [@Github_handle_2](https://github.com/<github_handle_2>) ·  Twitter [@Twitter_handle_2](https://twitter.com/<twitter_handle_2>)
-* <contributor name 3> ·  [@Github_handle_3](https://github.com/<github_handle_3>) ·  Twitter [@Twitter_handle_3](https://twitter.com/<twitter_handle_3>)
+* <contributor name 1> · [@Github_handle_1](https://github.com/<github_handle_1>) · Twitter [@Twitter_handle_1](https://twitter.com/<twitter_handle_1>)
+* <contributor name 2> · [@Github_handle_2](https://github.com/<github_handle_2>) · Twitter [@Twitter_handle_2](https://twitter.com/<twitter_handle_2>)
+* <contributor name 3> · [@Github_handle_3](https://github.com/<github_handle_3>) · Twitter [@Twitter_handle_3](https://twitter.com/<twitter_handle_3>)
 * etc. 
 
+Thanks also go to:
+* <thanks name 1> · [@Github_handle_1](https://github.com/<github_handle_1>) · Twitter [@Twitter_handle_1](https://twitter.com/<twitter_handle_1>)
+* <thanks name 2> · [@Github_handle_2](https://github.com/<github_handle_2>) · Twitter [@Twitter_handle_2](https://twitter.com/<twitter_handle_2>)
+* <thanks name 3> · [@Github_handle_3](https://github.com/<github_handle_3>) · Twitter [@Twitter_handle_3](https://twitter.com/<twitter_handle_3>)
+* etc. 
+
+Product owner:
+* Marco Winkelman · [@MarcoW71](https://github.com/MarcoW71)
 
 We use and gratefully aknowlegde the efforts of the makers of the following designs:
 
