@@ -17,7 +17,7 @@ Describe the function of the shiels.
 * [Credits](#credits)
 
 ## General info
-This repository will soon contain the open hardware design files, such as schematics and board layout files for the Twomes something shield.
+This repository will contain the hardware designs, such as schematics and board layout files for the Twomes something shield.
 
 For the associated firmwware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-opentherm-gateway-diyless).
 
@@ -70,13 +70,7 @@ To-do:
 Project is: _in progress_
 
 ## License
-The hardware in this repository is available under the [CERN-OHL-P v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
-
-`---or ---`
-
-The hardware in this repository is available under the [CERN-OHL-W v2 license](./LICENSE), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
-
-`N.B. Whether we apply the P(ermissive) or W(eakly raciprocal) variant of the CERN-OWH v2 licence for the hardware designs has not been determined yet. DO NOT make this repo public before we've decided the exact license.` 
+The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
 ## Credits
 This open hardware design is a collaborative effort of:
