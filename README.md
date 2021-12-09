@@ -2,7 +2,7 @@
 
 This repository contains the open hardware design files for the Twomes something device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
 
-Describe the function of the shiels.
+Describe the function of the shield.
 
 <img src="./Hardware/front.jpg" width="400" height="400" /> <img src="./Hardware/back.jpg" width="400" height="400" />
 
@@ -19,7 +19,7 @@ Describe the function of the shiels.
 ## General info
 This repository will contain the hardware designs, such as schematics and board layout files for the Twomes something shield.
 
-For the associated firmwware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-opentherm-gateway-diyless).
+For the associated firmwware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-software-repository-template).
 
 ## Prerequisites
 Describe which hardware and software you need to produce and/or develop the hardawre. If the prerequisites are different for users that only wish to produce hardware versus uers that (also) wish to develop new versions of the hardware, you may want to move the prerequisites section as a subsection of each of those sections.
