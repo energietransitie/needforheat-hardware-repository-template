@@ -88,7 +88,7 @@ Thanks also go to:
 Product owner:
 * Marco Winkelman · [@MarcoW71](https://github.com/MarcoW71)
 
-We use and gratefully aknowlegde the efforts of the makers of the following designs:
+We use and gratefully acknowlegde the efforts of the makers of the following designs:
 
 * [library name 1 and version](library 1 URL), by <copyright holder name 1>, licensed under [license 1 name](license1 URL)
 * [library name 2 and version](library 2 URL), by <copyright holder name 2>, licensed under [license 2 name](license2 URL)
