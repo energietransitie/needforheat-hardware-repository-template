@@ -21,9 +21,6 @@ This repository contains the open hardware designs files for the Twomes somethin
 
 For the associated firmware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-software-repository-template).
 
-## Prerequisites
-Describe which hardware and software you need to produce and/or develop the hardawre. If the prerequisites are different for users that only wish to produce hardware versus uers that (also) wish to develop new versions of the hardware, you may want to move the prerequisites section as a subsection of each of those sections.
-
 ## Producing
 
 
