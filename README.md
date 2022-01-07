@@ -2,9 +2,9 @@
 
 This repository contains the open hardware design files for the Twomes something device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
 
-Describe the function of the shield.
+The shield the function of the shield, e.g. "It can measure CO₂ concentration, relative humidity and temperature of a room".
 
-<img src="./Hardware/front.jpg" width="400" height="400" /> <img src="./Hardware/back.jpg" width="400" height="400" />
+<img src="./images/pcb.jpg" width="600"  />
 
 ## Table of contents
 * [General info](#general-info)
@@ -17,47 +17,48 @@ Describe the function of the shield.
 * [Credits](#credits)
 
 ## General info
-This repository will contain the hardware designs, such as schematics and board layout files for the Twomes something shield.
+This repository contains the open hardware designs files for the Twomes something shield. It also includes a `docs` folder with recent printouts of the [schematics](./docs/twomes-hardware-repository-sch.pdf) and [PCB layout](./docs/twomes-hardware-repository-pcb.pdf). 
 
-For the associated firmwware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-software-repository-template).
+For the associated firmware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-software-repository-template).
 
 ## Prerequisites
 Describe which hardware and software you need to produce and/or develop the hardawre. If the prerequisites are different for users that only wish to produce hardware versus uers that (also) wish to develop new versions of the hardware, you may want to move the prerequisites section as a subsection of each of those sections.
 
 ## Producing
 
-Describe how the reader use the files contained in this repository to produce the PCB hardware and enclusure(s). 
 
-### Printed Ciruit Board
-Document how to order (small) series of PCBs from a PCB fabrication service, including SMT assembly if the design calls for it. Use steps if the procedure is non-trivial:
-1. first step;
-2. second step;
-3. final step.
+### Printed Circuit Board
+To fabricate the printed circuit board you can use various PCB services. 
 
-Format any scripts or commands in a way that makes them  easy to copy, like the following example. 
+The folder [pcb/jlcpcb](./pcb/jlcpcb) includes all exported files needed to have the PCBs manufactured by [JLCPCB](https://www.jlcpcb.com). Upload the [zipped gerber files](./pcb/jlcpcb/gerber/gerber-TwomesSomething.zip) to the [JLCPCB quote page](https://cart.jlcpcb.com/quote), select the amount of PCBs and a colour for the silkscreen. All other options can be left on default.  If SMT assembly is desired, also select this option before ordering. This will take you to a page where the BOM and POS file can be uploaded. Use the files [BOM-TwomesSomething.csv](./pcb/jlcpcb/assembly/BOM-TwomesSomething.csv) and [CPL-TwomesSomething.csv](./pcb/jlcpcb/assembly/CPL-TwomesSomething.csv).
 
-Forgotten your Wi-Fi password? No problem with the follwing command, replacing `SSID` with the Wi-Fi name of your own Wi-Fi network: 
-```shell
-netsh wlan show profile SSID key=clear
-```
+
+In the current version of this design, no SMT assembly is used. Hence, we do not provide BOM*.csv and CPL-*.csv files in the folder [pcb/jlcpcb/assembly](./pcb/jlcpcb/assembly)
+
 ### Enclosure
-Document how to print (small) series of enclosures, e.g. on a 3D printer, and/or how to order enclusures, e.g. from a 3D printing service. Use steps if the procedure is non-trivial:
-1. first step;
-2. second step;
-3. final step.
+To fabricate the enclosure you can use your own 3D printer or use a 3D printing service. 
 
-Format any scripts or commands in a way that makes them  easy to copy, like the following example. 
+<img src="./images/enclosure.jpg" height="600" />
 
-Forgotten your Wi-Fi password? No problem with the follwing command, replacing `SSID` with the Wi-Fi name of your own Wi-Fi network: 
-```shell
-netsh wlan show profile SSID key=clear
-```
+The folder [enclosure/fabrication](./enclosure/fabrication) contains exported STL files for the [case](./enclosure/fabrication/twomes-hardware-repository-template-case.stl) and [lid](./enclosure/twomes-hardware-repository-template-lid.step) of the Twomes Something device enclosure. The STL files can be imported into any slicer and turned into G-Code for a 3D printer.
 
 ## Developing
-Describe how the reader can change or extend the harware design. 
+### Printed Circuit Board
+To change the hardware design of the PCB, you need:
+* [KiCad](https://www.kicad.org/download/) installed to change te PCB design. 
 
+The KiCad source files of the PCB can be found in the folder [pcb](./pcb).
+
+To convert the PCBs into a format suitable for fabrication, consult the webpage of your PCB manufacturer of choice. For example, see the [JLCPCB guide on how to export Gerbers](https://support.jlcpcb.com/article/149-how-to-generate-gerber-and-drill-files-in-kicad) and the  [JLCPCB guide how to export the BOM and POS files](https://support.jlcpcb.com/article/84-how-to-generate-the-bom-and-centroid-file-from-kicad). You may also use a KiCad plug-in for this purpose such as [kicad-jlcpcb-tools](https://github.com/Bouni/kicad-jlcpcb-tools).
+
+### Enclosure
+To change the hardware design of the enclosure, you need either:
+* [Autodesk Fusion 360](https://www.kicad.org/download/) installed (Autodesk provides 30 day free trials and [free one-year educational access](https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual) to its products and services for eligible students, teachers and research staff); 
+* or [FreeCAD](https://www.freecadweb.org/), an open source alternative.
+
+The source files of the enclosure can be found in the folder [enclosure](./enclosure). We include both .f3d source files and .step source files we obtained after conversion.
 ## Features
-List of features ready and TODOs for future development. Ready:
+The Twomes Something Shield features the follwoing main hardware components:
 * awesome feature 1;
 * awesome feature 2;
 * awesome feature 3.
@@ -67,10 +68,10 @@ To-do:
 * wow improvement to be done 2.
 
 ## Status
-Project is: _in progress_
+Project is:  _in progress_, _finished_, _no longer continued_ and why?
 
 ## License
-The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
+The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2022 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
 ## Credits
 This open hardware design is a collaborative effort of:
@@ -86,6 +87,8 @@ Thanks also go to:
 * etc. 
 
 Product owner:
+* <remove this line; common product owners listed for your convenience below>
+* Henri ter Hofte · [@henriterhofte](https://github.com/henriterhofte) · Twitter [@HeNRGi](https://twitter.com/HeNRGi)
 * Marco Winkelman · [@MarcoW71](https://github.com/MarcoW71)
 
 We use and gratefully acknowlegde the efforts of the makers of the following designs:
