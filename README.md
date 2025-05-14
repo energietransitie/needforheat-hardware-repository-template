@@ -1,5 +1,5 @@
 #  Generic hardware repository template   
-This is a template repository for hardware designs published by the Research Group Energy Transiton at Windesheim University of Applied Sciences. Replace items in this template with text appropriate for your repoo. In this seciton, also include a photo of the produced PCB and (if available) enclosure that you designed, showing that this repo can be used to fabricate this hardware. 
+This is a template repository for hardware designs published by the Research Group Energy Transiton at Windesheim University of Applied Sciences. Replace items in this template with text appropriate for your repo. In this seciton, also include a photo of the produced PCB and (if available) enclosure that you designed, showing that this repo can be used to fabricate this hardware. 
 
 <img src="./images/pcb.jpg" width="600"  />
 
