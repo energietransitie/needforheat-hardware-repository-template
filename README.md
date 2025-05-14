@@ -1,8 +1,5 @@
-# Twomes hardware repository template
-
-This repository contains the open hardware design files for the Twomes something device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
-
-The shield the function of the shield, e.g. "It can measure CO₂ concentration, relative humidity and temperature of a room".
+#  Generic hardware repository template   
+This is a template repository for hardware designs published by the Research Group Energy Transiton at Windesheim University of Applied Sciences. Replace items in this template with text appropriate for your repoo. In this seciton, also include a photo of the produced PCB and (if available) enclosure that you designed, showing that this repo can be used to fabricate this hardware. 
 
 <img src="./images/pcb.jpg" width="600"  />
 
@@ -17,9 +14,9 @@ The shield the function of the shield, e.g. "It can measure CO₂ concentration,
 * [Credits](#credits)
 
 ## General info
-This repository contains the open hardware designs files for the Twomes something shield. It also includes a `docs` folder with recent printouts of the [schematics](./docs/twomes-hardware-repository-sch.pdf) and [PCB layout](./docs/twomes-hardware-repository-pcb.pdf). 
+This repository contains the open hardware designs files for the \<insert name of your device\>. It also includes a `docs` folder with recent printouts of the [schematics](./docs/twomes-hardware-repository-sch.pdf) and [PCB layout](./docs/twomes-hardware-repository-pcb.pdf). 
 
-For the associated firmware that you can run on this device, please see [this repository](https://github.com/energietransitie/twomes-software-repository-template).
+For the associated firmware that you can run on this device, please see [this repository](https://github.com/energietransitie/energy-transition-software-repository-template).
 
 ## Producing
 
@@ -68,7 +65,7 @@ To-do:
 Project is:  _in progress_, _finished_, _no longer continued_ and why?
 
 ## License
-The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2022 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
+The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2025 [Research Group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
 ## Credits
 This open hardware design is a collaborative effort of:
